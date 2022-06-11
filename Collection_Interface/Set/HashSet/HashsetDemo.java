@@ -22,7 +22,7 @@ public class HashsetDemo
         hset.remove(333);
         System.out.println(hset);
 
-        //This will 
+        //This will find element present or not
         System.out.println(hset.contains(444));
 
         //This will return true/false
@@ -31,6 +31,7 @@ public class HashsetDemo
         //This will return array element size
         System.out.println(hset.size());
 
+        //clear a set || remove all element
         hset.clear();
         System.out.println(hset);
     }
