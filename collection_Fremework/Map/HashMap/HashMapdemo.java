@@ -6,37 +6,54 @@ public class HashMapdemo
     {
         Map<String, Integer> hashmap = new HashMap<>();
 
+        //This will be add key-value pare
         hashmap.put("one",1);
         hashmap.put("two",2);
         hashmap.put("three",3);
         hashmap.put("four",4);
 
-        Syste.out.println(hashmap);
+        System.out.println(hashmap);
 
+
+        //if u want to do not override key-value pare by use the key
         if(!hashmap.containsKey("two"))
-        {
-            hashmap.out("two",226);
+        {                                                                              //containKey and putIfAbsent
+            hashmap.put("two",226);                                                    // have a same behavior
         }
 
+        //if u want to do not override key
         hashmap.putIfAbsent("three",33);
         System.out.println(hashmap);
 
 
-        for(map.Entry<String, Integer> e:hashmap.entrySet())
+        //Get a entey set/map
+        for(Map.Entry<String, Integer> e:hashmap.entrySet())
         {
             System.out.println(e.getKey());
             System.out.println(e.getValue());
         }
 
+        //Return a key 
         for(String key: hashmap.keySet())
         {
             System.out.println(key);
         }
 
-        for(nteger value: hashmap.value())
+        //Return a value
+        for(Integer value: hashmap.values())
         {
-            Syetem.out.println(value);
+            System.out.println(value);
         }
+
+        //This will be check the value have in map or not
+        System.out.println(hashmap.containsValue(3));
+
+        //This will be return true or false for map is empty or not
+        System.out.println(hashmap.isEmpty());
+
+        //Clear whole map
+        hashmap.clear();
+        System.out.println(hashmap);
     }
 }
 
