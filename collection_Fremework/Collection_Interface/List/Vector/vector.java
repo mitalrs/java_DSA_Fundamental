@@ -10,9 +10,9 @@ public class vector {
         v.add(14);
         v.add(15);
 
-        System.out.println(v.capacity());
+        System.out.println("capacity "+v.capacity());
 
-        v.remove(14);
+        v.remove(2);
 
         for(int i: v)
         {
@@ -22,3 +22,16 @@ public class vector {
 }
 
 //ava Vector contains many legacy methods that are not the part of a collections framework.
+
+/* java come with vector
+vector introduce:1.0
+arraylist introduce:1.2 */
+
+//difference btween arraylist and Vector
+// vector... if you will excid the linit u will incress the linit 100%
+// arrayList.. incress the capaciry 50% 
+// arrayList save the memory
+
+//vector Sychronised
+//therotycaly thredsafe but not practically.....slow
+// arrayList not a theardsafe....fast
