@@ -27,10 +27,10 @@ public class vector {
 vector introduce:1.0
 arraylist introduce:1.2 */
 
-//difference btween arraylist and Vector
-// vector... if you will excid the linit u will incress the linit 100%
-// arrayList.. incress the capaciry 50% 
-// arrayList save the memory
+/* difference btween arraylist and Vector
+vector... if you will excid the linit u will incress the linit 100%
+arrayList.. incress the capaciry 50% 
+arrayList save the memory */
 
 //vector Sychronised
 //therotycaly thredsafe but not practically.....slow
