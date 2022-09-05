@@ -1,5 +1,5 @@
 import java.util.*;
-public class Main
+public class linearSearch
 {
 	public static void main(String[] args) 
 	{
